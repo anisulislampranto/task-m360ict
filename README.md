@@ -72,6 +72,7 @@ if (['HR', 'Finance'].includes(data.department)) {
     });
   }
 }
+````
 
 ### 3. Dynamic Field Dependencies
 **Approach:** Real-time field watching and conditional rendering.
@@ -109,6 +110,7 @@ const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   
   setValue('personalInfo.profilePicture', file, { shouldValidate: true });
 };
+```
 
 ### 6. Searchable Combobox
 **Approach:** Created a custom searchable dropdown using shadcn/ui Command component.
@@ -131,7 +133,7 @@ const formatDateToYYYYMMDD = (date: Date) => {
   const day = String(date.getDate()).padStart(2, '0');
   return `${year}-${month}-${day}`;
 };
-
+```
 
 ## 🎯 Business Logic Implementation
 
