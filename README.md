@@ -8,23 +8,23 @@ A multi-step employee onboarding form built with **Next.js**, **React Hook Form*
 
 ### Prerequisites
 - Node.js 18+ installed
-- npm or yarn package manager
+- npm or pnpm package manager
 
 ### Installation & Setup
 Clone and install dependencies:
 
 ````
 # Install dependencies
-npm install
+pnpm install
 
 # Run the development server
-npm run dev
+pnpm run dev
 
 # Build for production
-npm run build
+pnpm run build
 
 # Start production server
-npm start
+pnpm start
 ````
 
 
