@@ -24,7 +24,7 @@ npm run dev
 npm run build
 
 # Start production server
-npm start
+npm start```
 
 
 Open your browser:
