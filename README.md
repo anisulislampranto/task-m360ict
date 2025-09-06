@@ -204,6 +204,7 @@ const formatDateToYYYYMMDD = (date: Date) => {
 
 
 ## 📦 Project Structure
+````
 src/
 ├── components/
 │   ├── steps/                 # Form step components
@@ -221,7 +222,7 @@ src/
 │   └── utils.ts               # Utility functions
 └── app/
     └── page.tsx               # Main application component
-
+````
 
 ## 🚨 Potential Improvements
 
