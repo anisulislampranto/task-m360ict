@@ -13,7 +13,7 @@ A multi-step employee onboarding form built with **Next.js**, **React Hook Form*
 ### Installation & Setup
 Clone and install dependencies:
 
-```bash
+````
 # Install dependencies
 npm install
 
@@ -24,7 +24,7 @@ npm run dev
 npm run build
 
 # Start production server
-npm start```bash
+npm start````
 
 
 Open your browser:
