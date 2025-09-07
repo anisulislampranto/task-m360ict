@@ -9,12 +9,9 @@ import { Button } from '@/components/ui/button';
 import { CalendarIcon } from 'lucide-react';
 import { format } from 'date-fns';
 import { cn } from '@/lib/utils';
-import { Manager } from '@/lib/types';
+import { JobDetailsStepProps } from '@/lib/types';
 import { Combobox } from '../ui/combobox';
 
-interface JobDetailsStepProps {
-    managers: Manager[];
-}
 
 export default function JobDetailsStep({ managers }: JobDetailsStepProps) {
     const { control, watch } = useFormContext();

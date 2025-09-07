@@ -4,12 +4,9 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Input } from '@/components/ui/input';
 import { Slider } from '@/components/ui/slider';
 import { Textarea } from '@/components/ui/textarea';
-import { SkillsByDepartment } from '@/lib/types';
+import { SkillsStepProps } from '@/lib/types';
 import { useEffect, useMemo } from 'react';
 
-interface SkillsStepProps {
-    skillsByDepartment: SkillsByDepartment;
-}
 
 export default function SkillsStep({ skillsByDepartment }: SkillsStepProps) {
     const { control, setValue, watch } = useFormContext();
